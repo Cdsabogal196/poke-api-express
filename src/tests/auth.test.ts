@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.test' });
 import request from 'supertest';
-import { describe, it, expect, beforeEach } from '@jest/globals';
+import { describe, it, expect } from '@jest/globals';
 import app from '../app';
 
 describe("Auth", () => {

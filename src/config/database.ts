@@ -10,5 +10,6 @@ export const AppDataSource = new DataSource({
     password: process.env.dbpassword,
     database: process.env.dbdatabase as any,
     synchronize: true,
+    ssl: { rejectUnauthorized: false },
     entities: [Pokemon],
 });

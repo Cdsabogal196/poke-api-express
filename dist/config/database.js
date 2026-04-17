@@ -12,6 +12,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     password: process.env.dbpassword,
     database: process.env.dbdatabase,
     synchronize: true,
+    ssl: { rejectUnauthorized: false },
     entities: [pokemon_1.Pokemon],
 });
 //# sourceMappingURL=database.js.map

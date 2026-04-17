@@ -1,6 +1,6 @@
 # Descripción 
 
-PokeAPI Express es una API que obtiene el servicio de otra API en línea, presenta su información mediante una consulta y la almacena en la base de datos. Si la información de PokeAPI existe la guarda en la base de datos, de lo contrario no la almacenará.
+PokeAPI Express es una API que actúa como intermediario: consume el servicio de la API externa PokeAPI, procesa la información obtenida y la almacena en su propia base de datos. El flujo es el siguiente: al recibir una solicitud, la API consulta PokeAPI; si esta fuente externa devuelve información, la guarda en la base de datos local; si no obtiene respuesta, no almacena nada. De esta forma, la base de datos siempre contendrá solo los datos que han sido recuperados exitosamente desde PokeAPI.
 
 ## Ejecución 
 

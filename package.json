@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "npx ts-node src/index.ts"
+    "start": "node -e \"console.log('Hello from Azure'); process.env.PORT && console.log('PORT=' + process.env.PORT)\""
   },
   "keywords": [],
   "author": "",

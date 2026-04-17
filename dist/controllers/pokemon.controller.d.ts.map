@@ -1,0 +1,1 @@
+{"version":3,"file":"pokemon.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/pokemon.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAC,QAAQ,EAAE,MAAM,SAAS,CAAC;AAK3C,qBAAa,iBAAiB;IAEpB,GAAG,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAWxC"}

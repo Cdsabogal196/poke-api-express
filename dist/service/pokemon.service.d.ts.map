@@ -1,0 +1,1 @@
+{"version":3,"file":"pokemon.service.d.ts","sourceRoot":"","sources":["../../src/service/pokemon.service.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,MAAM,qBAAqB,CAAA;AAE7C,qBAAa,cAAc;IACvB,OAAO,CAAC,UAAU,CAAwC;IAEpD,WAAW;CA0BpB"}
